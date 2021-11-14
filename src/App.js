@@ -51,7 +51,11 @@ function App() {
         ))}
       </main>
       <footer className="footer">
-        <span className="text-code">I have {friends.length} new friends!</span>
+        <span className="text-code">
+          {`I have ${friends.length} new ${
+            friends.length > 1 ? "friends" : "friend"
+          }!`}
+        </span>
       </footer>
     </div>
   );
