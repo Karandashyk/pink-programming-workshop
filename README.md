@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Pink Programming workshop (basic)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to create my application?
 
-## Available Scripts
+1. You can start builing React application locally.\
+   The guide is [here](https://reactjs.org/docs/create-a-new-react-app.html).
 
-In the project directory, you can run:
+   Create React app: `npx create-react-app pp-app`\
+   Go inside created directory: `cd pp-app`\
+   Run the application: `npm start`\
+   Open the project in VS Code
 
-### `npm start`
+2. You can use React Sandbox from [Codesandbox](https://codesandbox.io).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Useful links
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. React tutorial for beginners [here](https://www.taniarascia.com/getting-started-with-react/). Check the [prerequisites](https://www.taniarascia.com/getting-started-with-react/#prerequisites), there are very helpful links for CSS, HTML and JS there.
 
-### `npm test`
+2. JavaScript documentation: [javascript.info](https://javascript.info) and [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. [HTML](https://www.w3schools.com/html/default.asp) and [CSS](https://www.w3schools.com/css/default.asp) documentation.
 
-### `npm run build`
+4. If you are not familiar with CSS selectors, there is a fun game to play and learn [CSS diner](https://flukeout.github.io).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. If you are not familiar with Flexbox CSS concept, there is another amazing game to try [Flexbox Froggy](https://flexboxfroggy.com).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tasks for the workshop
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Create an application
+2. Add header, main section, and footer. Style them.
+3. Create array of items called _friends_. Each item should have _id_, _name_, and _favoriteColor_ fields.
+4. Create component to display an item. Style it.
+5. Display items from _friends_ array with created component.
 
-### `npm run eject`
+## Note
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This repository is a working example of the assignment. But it is not the only way you can complete the tasks. Try new things, learn something new and use your imagination. There is no limit.
